@@ -1,0 +1,12 @@
+{
+    "posts": [ 
+        {
+            "title": "Setembro Amarelo: como empresas podem criar um ambiente de segurança psicológica",
+            "description": "Setembro Amarelo é uma campanha de prevenção ao suicídio que visa à conscientização e educação da população sobre esse grave problema e formas de evitá-lo. O mês de setembro foi escolhido porque o dia 10 de setembro é o Dia Mundial de Prevenção do Suicídio."
+        },
+        {
+            "title": "Outubro Rosa: a importância da prevenção ao câncer de mama",
+            "description": "Outubro Rosa é uma campanha de conscientização que tem como objetivo principal alertar as mulheres e a sociedade sobre a importância da prevenção e do diagnóstico precoce do câncer de mama."
+        }
+    ]
+}
