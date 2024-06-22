@@ -1,0 +1,39 @@
+:root{ /*Posso criar variáveis aqui dentro, é o acesso base do css*/
+  --black-800:#1e1e1e; /*quanto mais perto de 1000 mais preto*/
+  --black-700:#383838;
+
+  --whiter-100: #fefefe;
+  --white-200: #e6e6e6;
+
+  --blue-600: #6492a3;
+  --blue-400: #95b5c0;
+
+}
+
+body{
+    background-color: var(--whiter-100);
+    margin: 0;
+    overflow-x: none;
+}
+
+body #root{
+    width: 100%;
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+p,strong,span{
+    font-family: 'Roboto',sans-serif;
+}
+
+/*
+na root posso:
+ - Declarar variaveis globais
+
+No HTML, a pseudo-classe :root é utilizada para representar o elemento raiz do documento, que 
+é o <html>. Isso é especialmente útil no CSS para definir variáveis globais, pois qualquer estilo 
+aplicado ao :root será herdado por todos os elementos da página
+*/

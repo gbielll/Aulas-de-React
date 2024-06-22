@@ -1,6 +1,7 @@
 import React from 'react';
-import Post from './Post';
-import postsData from './../posts.json';
+import Post from '../Post';
+import postsData from '../../posts.json';
+import './styles.css'
 
 /*ele cria uma variável 'postData'  de posts.json e retorna ela em uma função map, em um post
  (onde recebe os valores) junto com um index (q acho q seria os índices/id de cada post). 
@@ -13,6 +14,8 @@ import postsData from './../posts.json';
                 return <Post title={post.title} description={post.description}/>
 })}
 
+
+// deixe o nome dos arquivos de index, pois ele ja acha
 */
 
 export default function Posts() {

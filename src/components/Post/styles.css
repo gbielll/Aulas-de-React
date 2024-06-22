@@ -1,0 +1,17 @@
+li{
+    max-width: 720px; /*delimita a largura de cada li*/
+    width: 100%; 
+    list-style: none;
+
+    /*por padrao essa width ocupa 720 (com o max-width)
+    , mas com o width, quando a pagina for diminuindo ela ocuparar 100% (com o width)
+    */
+}
+
+h2{
+    color: var(--black-800)
+}
+
+p{
+    color: var(--black-700)
+}
